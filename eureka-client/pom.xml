@@ -4,10 +4,10 @@
 	xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>eureka-server</artifactId>
-	<name>eureka-server</name>
+	<artifactId>eureka-client</artifactId>
+	<name>eureka-client</name>
 	<packaging>jar</packaging>
-
+	
 	<parent>
 		<groupId>com.chok</groupId>
 		<artifactId>springcloud-demo</artifactId>
@@ -27,11 +27,17 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.freemarker</groupId>
 			<artifactId>freemarker</artifactId>
 		</dependency>
+		<!-- chok-devwork -->
+		<dependency><groupId>com.chok</groupId><artifactId>chok-devwork</artifactId></dependency>
+		<!-- spring-boot druid -->
+		<dependency><groupId>com.alibaba</groupId><artifactId>druid-spring-boot-starter</artifactId></dependency>
+		<!-- db driver myql-->
+		<dependency><groupId>mysql</groupId><artifactId>mysql-connector-java</artifactId></dependency>
 	</dependencies>
 </project>

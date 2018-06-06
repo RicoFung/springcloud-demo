@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: eureka-server
+Implementation-Version: 1.0
+Built-By: ECNHQW1742
+Implementation-Vendor-Id: com.chok
+Build-Jdk: 1.8.0_152
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/chok-parent/springcloud-demo/eureka-server
+Created-By: Maven Integration for Eclipse
+
